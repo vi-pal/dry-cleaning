@@ -1,4 +1,4 @@
-package com.example.drycleaningapp.ui.gallery
+package com.example.drycleaningapp.presentation.costumers
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

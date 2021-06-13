@@ -1,4 +1,4 @@
-package com.example.drycleaningapp.ui.slideshow
+package com.example.drycleaningapp.presentation.info
 
 import android.os.Build
 import androidx.lifecycle.LiveData

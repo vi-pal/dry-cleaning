@@ -1,4 +1,4 @@
-package com.example.drycleaningapp.ui.home
+package com.example.drycleaningapp.presentation.orders
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,30 +8,30 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.drycleaningapp.databinding.FragmentOffersBinding
+import com.example.drycleaningapp.databinding.FragmentOrdersBinding
 
-class OffersFragment : Fragment() {
+class OrdersFragment : Fragment() {
 
-    private lateinit var offersViewModel: OffersViewModel
-    private var _binding: FragmentOffersBinding? = null
+    private lateinit var ordersViewModel: OrdersViewModel
+    private var _binding: FragmentOrdersBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
-        offersViewModel =
-                ViewModelProvider(this).get(OffersViewModel::class.java)
+        ordersViewModel =
+            ViewModelProvider(this).get(OrdersViewModel::class.java)
 
-        _binding = FragmentOffersBinding.inflate(inflater, container, false)
+        _binding = FragmentOrdersBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textHome
-        offersViewModel.text.observe(viewLifecycleOwner, Observer {
+        ordersViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root

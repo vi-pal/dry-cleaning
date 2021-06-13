@@ -7,7 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_offers">Offers</string>
+    <string name="menu_orders">Orders</string>
     <string name="menu_costumers">Costumers</string>
     <string name="menu_info">Information about app</string>
     <string name="dry_cleaning_app">Dry cleaning app</string>

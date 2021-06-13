@@ -1,4 +1,4 @@
-package com.example.drycleaningapp.ui.slideshow
+package com.example.drycleaningapp.presentation.info
 
 import android.os.Bundle
 import android.view.LayoutInflater

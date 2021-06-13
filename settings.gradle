@@ -1,0 +1,2 @@
+rootProject.name = "Dry cleaning app"
+include ':app'

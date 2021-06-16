@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_orders"
-        android:name="com.example.drycleaningapp.presentation.orders.OrdersFragment"
+        android:name="com.example.drycleaningapp.presentation.screens.orders.OrdersFragment"
         android:label="@string/menu_orders"
         tools:layout="@layout/fragment_orders" />
 
     <fragment
         android:id="@+id/nav_costumers"
-        android:name="com.example.drycleaningapp.presentation.costumers.CostumersFragment"
+        android:name="com.example.drycleaningapp.presentation.screens.costumers.CostumersFragment"
         android:label="@string/menu_costumers"
         tools:layout="@layout/fragment_costumers" />
 
     <fragment
         android:id="@+id/nav_info"
-        android:name="com.example.drycleaningapp.presentation.info.InfoFragment"
+        android:name="com.example.drycleaningapp.presentation.screens.info.InfoFragment"
         android:label="@string/menu_info"
         tools:layout="@layout/fragment_info" />
 </navigation>

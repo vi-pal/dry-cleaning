@@ -12,4 +12,6 @@
     <string name="menu_info">Information about app</string>
     <string name="dry_cleaning_app">Dry cleaning app</string>
     <string name="developed_by_viktor_palagniuk">Developed by Viktor Palagniuk</string>
+    <string name="orders">Orders</string>
+    <string name="order_number">Order number:</string>
 </resources>
